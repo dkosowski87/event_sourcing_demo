@@ -1,0 +1,21 @@
+# Ignore logfiles
+/log/*
+!/log/.keep
+
+# Ignore tempfiles
+/tmp/*
+!/tmp/.keep
+
+# Ignore git
+.git
+
+# Ignore cache directories
+.cache
+
+# Ignore md files except README
+*.md
+!README*.md
+
+# Ignore secrets
+/config/database.yml
+/config/secrets.yml
